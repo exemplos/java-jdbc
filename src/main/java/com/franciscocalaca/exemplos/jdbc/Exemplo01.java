@@ -6,6 +6,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+/**
+ * Exemplo de conexao com banco de dados postgres em java
+ * @author chico
+ */
 public class Exemplo01 {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		Class.forName("org.postgresql.Driver");
